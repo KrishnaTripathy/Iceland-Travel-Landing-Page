@@ -87,18 +87,19 @@ const MobileHeroSection: React.FC = () => {
       )}
 
       {/* Mobile Hero Text */}
-      <div className="absolute top-1/4 left-0 right-0 px-4 text-black">
-        <h1 className="text-3xl font-bold leading-tight mb-4">
-          Weaving Your Dreams into Unforgettable Adventures
-        </h1>
-        <p className="text-sm mb-6">
-          Discover the captivating allure of Arctic wonders, from stunning landscapes to vibrant culture, on an unforgettable journey through the North.
-        </p>
-        <button className="px-6 py-3 bg-white text-black font-semibold rounded-full flex items-center justify-center hover:bg-gray-200 ml-48">
-          Booking Now
-          <span className="ml-2">➔</span>
-        </button>
-      </div>
+      <div className="absolute top-1/4 left-0 right-0 px-4 text-black flex flex-col items-center">
+  <h1 className="text-3xl font-bold leading-tight mb-4 text-center">
+    Weaving Your Dreams into Unforgettable Adventures
+  </h1>
+  <p className="text-sm mb-6 text-center">
+    Discover the captivating allure of Arctic wonders, from stunning landscapes to vibrant culture, on an unforgettable journey through the North.
+  </p>
+  <button className="px-6 py-3 bg-white text-black font-semibold rounded-full flex items-center justify-center hover:bg-gray-200 mt-4 md:mt-6 lg:mt-8">
+    Booking Now
+    <span className="ml-2">➔</span>
+  </button>
+</div>
+
 
       {/* Mobile Social Media Icons */}
       <div className="absolute bottom-8 flex space-x-4">
