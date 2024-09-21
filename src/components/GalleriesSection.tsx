@@ -7,7 +7,7 @@ const GalleriesSection: React.FC = () => {
         {/* Title and Description */}
         <div className="mb-12">
           <p className="text-gray-500 text-sm mb-2">[Galleries]</p>
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-4xl mb-4">
             A visual journey through the lens, one snapshot at a time capturing the essence of our travel adventures around the world.
           </h2>
         </div>

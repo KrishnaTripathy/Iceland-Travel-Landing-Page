@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import MobileHeroSection from "./MobileHeroSection";
-import { useMediaQuery } from 'react-responsive'; // Import for media query
+import { useMediaQuery } from 'react-responsive';
 
 const HeroSection: React.FC = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
     <div className="relative h-screen w-full bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1469212044023-0e55b4b9745a?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+          "url('https://images.unsplash.com/photo-1692211622245-28dc8acdce33?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGlsbCUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D')",
       }}
     >
       {isMobile ? (
@@ -32,10 +32,10 @@ const HeroSection: React.FC = () => {
 
           {/* Hero Text */}
           <div className="absolute top-1/4 left-8 text-black max-w-lg px-4 md:px-0">
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight text-black">
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white">
               Weaving Your Dreams into Unforgettable Adventures
             </h1>
-            <p className="mt-4 text-black text-sm md:text-base">
+            <p className="mt-4 text-gray-300 text-sm md:text-base">
               Discover the captivating allure of Arctic wonders, from stunning landscapes to vibrant culture, on an unforgettable journey through the North.
             </p>
             <button className="mt-6 px-4 py-2 md:px-6 md:py-3 bg-white text-black font-semibold rounded-full flex items-center hover:bg-gray-200">
